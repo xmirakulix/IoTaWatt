@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5708,12 +5708,22 @@ Epson Toyocom FCC-255</description>
 </class>
 </classes>
 <parts>
-<part name="R31" library="adafruit" deviceset="R-US_" device="R0805" value="1K"/>
-<part name="R32" library="adafruit" deviceset="R-US_" device="R0805" value="12K"/>
-<part name="U$1" library="IotaWatt_parts" deviceset="MCP3208" device=""/>
+<part name="R31" library="adafruit" deviceset="R-US_" device="R0805" value="1K">
+<attribute name="LCSC_PART" value="C309081"/>
+</part>
+<part name="R32" library="adafruit" deviceset="R-US_" device="R0805" value="12K">
+<attribute name="LCSC_PART" value="C515719"/>
+</part>
+<part name="U$1" library="IotaWatt_parts" deviceset="MCP3208" device="">
+<attribute name="LCSC_PART" value="C16939"/>
+</part>
 <part name="U$3" library="IotaWatt_parts" deviceset="VREF_SHUNT" device=""/>
-<part name="R29" library="adafruit" deviceset="R-US_" device="R0805" value="1K"/>
-<part name="U$2" library="IotaWatt_parts" deviceset="MCP3208" device=""/>
+<part name="R29" library="adafruit" deviceset="R-US_" device="R0805" value="1K">
+<attribute name="LCSC_PART" value="C309081"/>
+</part>
+<part name="U$2" library="IotaWatt_parts" deviceset="MCP3208" device="">
+<attribute name="LCSC_PART" value="C16939"/>
+</part>
 <part name="U$16" library="IotaWatt_parts" deviceset="NODEMCU" device=""/>
 <part name="J8" library="IotaWatt_parts" deviceset="STEREO_SMD" device=""/>
 <part name="J9" library="IotaWatt_parts" deviceset="STEREO_SMD" device=""/>
@@ -5729,66 +5739,142 @@ Epson Toyocom FCC-255</description>
 <part name="J3" library="IotaWatt_parts" deviceset="STEREO_SMD" device=""/>
 <part name="J2" library="IotaWatt_parts" deviceset="STEREO_SMD" device=""/>
 <part name="J1" library="IotaWatt_parts" deviceset="STEREO_SMD" device=""/>
-<part name="Y1" library="microbuilder" deviceset="CRYSTAL" device="8X3.8SMT" value="32Khz"/>
-<part name="U$4" library="IotaWatt_parts" deviceset="PCF8523_RTC" device=""/>
+<part name="Y1" library="microbuilder" deviceset="CRYSTAL" device="8X3.8SMT" value="32Khz">
+<attribute name="LCSC_PART" value="C179637"/>
+</part>
+<part name="U$4" library="IotaWatt_parts" deviceset="PCF8523_RTC" device="">
+<attribute name="LCSC_PART" value="C2651516"/>
+</part>
 <part name="J0" library="IotaWatt_parts" deviceset="2.1MMJACK" device="SMT"/>
 <part name="U$18" library="IotaWatt_parts" deviceset="CR1220SMD" device=""/>
 <part name="J$20" library="IotaWatt_parts" deviceset="MICROSD_PUSH/PULL" device=""/>
-<part name="R8" library="adafruit" deviceset="R-US_" device="R0805" value="20"/>
-<part name="R12" library="adafruit" deviceset="R-US_" device="R0805" value="20"/>
-<part name="R16" library="adafruit" deviceset="R-US_" device="R0805" value="20"/>
-<part name="R20" library="adafruit" deviceset="R-US_" device="R0805" value="20"/>
-<part name="R24" library="adafruit" deviceset="R-US_" device="R0805" value="20"/>
-<part name="R28" library="adafruit" deviceset="R-US_" device="R0805" value="20"/>
-<part name="R36" library="adafruit" deviceset="R-US_" device="R0805" value="20"/>
-<part name="R40" library="adafruit" deviceset="R-US_" device="R0805" value="20"/>
-<part name="R44" library="adafruit" deviceset="R-US_" device="R0805" value="20"/>
-<part name="R48" library="adafruit" deviceset="R-US_" device="R0805" value="20"/>
-<part name="R52" library="adafruit" deviceset="R-US_" device="R0805" value="20"/>
-<part name="R56" library="adafruit" deviceset="R-US_" device="R0805" value="20"/>
-<part name="R57" library="adafruit" deviceset="R-US_" device="R0805" value="20"/>
-<part name="R58" library="adafruit" deviceset="R-US_" device="R0805" value="20"/>
-<part name="R4" library="adafruit" deviceset="R-US_" device="R0805" value="220"/>
-<part name="U$17" library="IotaWatt_parts" deviceset="TVS_4CHAN_ARRAY" device="SC-74"/>
-<part name="U$19" library="IotaWatt_parts" deviceset="TVS_4CHAN_ARRAY" device="SC-74"/>
-<part name="U$20" library="IotaWatt_parts" deviceset="TVS_4CHAN_ARRAY" device="SC-74"/>
-<part name="U$21" library="IotaWatt_parts" deviceset="TVS_4CHAN_ARRAY" device="SC-74"/>
+<part name="R8" library="adafruit" deviceset="R-US_" device="R0805" value="20">
+<attribute name="LCSC_PART" value="C723660"/>
+</part>
+<part name="R12" library="adafruit" deviceset="R-US_" device="R0805" value="20">
+<attribute name="LCSC_PART" value="C723660"/>
+</part>
+<part name="R16" library="adafruit" deviceset="R-US_" device="R0805" value="20">
+<attribute name="LCSC_PART" value="C723660"/>
+</part>
+<part name="R20" library="adafruit" deviceset="R-US_" device="R0805" value="20">
+<attribute name="LCSC_PART" value="C723660"/>
+</part>
+<part name="R24" library="adafruit" deviceset="R-US_" device="R0805" value="20">
+<attribute name="LCSC_PART" value="C723660"/>
+</part>
+<part name="R28" library="adafruit" deviceset="R-US_" device="R0805" value="20">
+<attribute name="LCSC_PART" value="C723660"/>
+</part>
+<part name="R36" library="adafruit" deviceset="R-US_" device="R0805" value="20">
+<attribute name="LCSC_PART" value="C723660"/>
+</part>
+<part name="R40" library="adafruit" deviceset="R-US_" device="R0805" value="20">
+<attribute name="LCSC_PART" value="C723660"/>
+</part>
+<part name="R44" library="adafruit" deviceset="R-US_" device="R0805" value="20">
+<attribute name="LCSC_PART" value="C723660"/>
+</part>
+<part name="R48" library="adafruit" deviceset="R-US_" device="R0805" value="20">
+<attribute name="LCSC_PART" value="C723660"/>
+</part>
+<part name="R52" library="adafruit" deviceset="R-US_" device="R0805" value="20">
+<attribute name="LCSC_PART" value="C723660"/>
+</part>
+<part name="R56" library="adafruit" deviceset="R-US_" device="R0805" value="20">
+<attribute name="LCSC_PART" value="C723660"/>
+</part>
+<part name="R57" library="adafruit" deviceset="R-US_" device="R0805" value="20">
+<attribute name="LCSC_PART" value="C723660"/>
+</part>
+<part name="R58" library="adafruit" deviceset="R-US_" device="R0805" value="20">
+<attribute name="LCSC_PART" value="C723660"/>
+</part>
+<part name="R4" library="adafruit" deviceset="R-US_" device="R0805" value="220">
+<attribute name="LCSC_PART" value="C17557"/>
+</part>
+<part name="U$17" library="IotaWatt_parts" deviceset="TVS_4CHAN_ARRAY" device="SC-74">
+<attribute name="LCSC_PART" value="C531179"/>
+</part>
+<part name="U$19" library="IotaWatt_parts" deviceset="TVS_4CHAN_ARRAY" device="SC-74">
+<attribute name="LCSC_PART" value="C531179"/>
+</part>
+<part name="U$20" library="IotaWatt_parts" deviceset="TVS_4CHAN_ARRAY" device="SC-74">
+<attribute name="LCSC_PART" value="C531179"/>
+</part>
+<part name="U$21" library="IotaWatt_parts" deviceset="TVS_4CHAN_ARRAY" device="SC-74">
+<attribute name="LCSC_PART" value="C531179"/>
+</part>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="supply2" deviceset="GND" device=""/>
-<part name="U$22" library="IotaWatt_parts" deviceset="LM358_DUAL_OP-AMP" device=""/>
+<part name="U$22" library="IotaWatt_parts" deviceset="LM358_DUAL_OP-AMP" device="">
+<attribute name="LCSC_PART" value="C5423"/>
+</part>
 <part name="SUPPLY8" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY9" library="supply2" deviceset="GND" device=""/>
-<part name="R1" library="adafruit" deviceset="R-US_" device="R0805" value="4.7K"/>
-<part name="R2" library="adafruit" deviceset="R-US_" device="R0805" value="4.7K"/>
-<part name="C3" library="adafruit" deviceset="C-US" device="C0805" value=".1uf"/>
+<part name="R1" library="adafruit" deviceset="R-US_" device="R0805" value="4.7K">
+<attribute name="LCSC_PART" value="C515732"/>
+</part>
+<part name="R2" library="adafruit" deviceset="R-US_" device="R0805" value="4.7K">
+<attribute name="LCSC_PART" value="C515732"/>
+</part>
+<part name="C3" library="adafruit" deviceset="C-US" device="C0805" value=".1uf">
+<attribute name="LCSC_PART" value="C49678"/>
+</part>
 <part name="SUPPLY10" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY11" library="supply2" deviceset="GND" device=""/>
-<part name="C1" library="adafruit" deviceset="C-US" device="C0805" value="10uf"/>
+<part name="C1" library="adafruit" deviceset="C-US" device="C0805" value="10uf">
+<attribute name="LCSC_PART" value="C15850"/>
+</part>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY12" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY13" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="supply2" deviceset="GND" device=""/>
 <part name="U$23" library="IotaWatt_parts" deviceset="LED_RT_TRH" device=""/>
-<part name="C2" library="adafruit" deviceset="C-US" device="C0805" value="10uf"/>
+<part name="C2" library="adafruit" deviceset="C-US" device="C0805" value="10uf">
+<attribute name="LCSC_PART" value="C15850"/>
+</part>
 <part name="SUPPLY15" library="supply2" deviceset="GND" device=""/>
-<part name="C4" library="adafruit" deviceset="C-US" device="C0805" value=".1uf"/>
-<part name="C5" library="adafruit" deviceset="C-US" device="C0805" value=".1uf"/>
-<part name="C6" library="adafruit" deviceset="C-US" device="C0805" value=".1uf"/>
-<part name="C7" library="adafruit" deviceset="C-US" device="C0805" value="10uF"/>
-<part name="R3" library="adafruit" deviceset="R-US_" device="R0805" value="1K"/>
-<part name="R5" library="adafruit" deviceset="R-US_" device="R0805" value="1K"/>
-<part name="R6" library="adafruit" deviceset="R-US_" device="R0805" value="12K"/>
+<part name="C4" library="adafruit" deviceset="C-US" device="C0805" value=".1uf">
+<attribute name="LCSC_PART" value="C49678"/>
+</part>
+<part name="C5" library="adafruit" deviceset="C-US" device="C0805" value=".1uf">
+<attribute name="LCSC_PART" value="C49678"/>
+</part>
+<part name="C6" library="adafruit" deviceset="C-US" device="C0805" value=".1uf">
+<attribute name="LCSC_PART" value="C49678"/>
+</part>
+<part name="C7" library="adafruit" deviceset="C-US" device="C0805" value="10uF">
+<attribute name="LCSC_PART" value="C15850"/>
+</part>
+<part name="R3" library="adafruit" deviceset="R-US_" device="R0805" value="1K">
+<attribute name="LCSC_PART" value="C309081"/>
+</part>
+<part name="R5" library="adafruit" deviceset="R-US_" device="R0805" value="1K">
+<attribute name="LCSC_PART" value="C309081"/>
+</part>
+<part name="R6" library="adafruit" deviceset="R-US_" device="R0805" value="12K">
+<attribute name="LCSC_PART" value="C515719"/>
+</part>
 <part name="J15" library="IotaWatt_parts" deviceset="2.1MMJACK" device="SMT"/>
-<part name="R7" library="adafruit" deviceset="R-US_" device="R0805" value="1K"/>
-<part name="R9" library="adafruit" deviceset="R-US_" device="R0805" value="12K"/>
+<part name="R7" library="adafruit" deviceset="R-US_" device="R0805" value="1K">
+<attribute name="LCSC_PART" value="C309081"/>
+</part>
+<part name="R9" library="adafruit" deviceset="R-US_" device="R0805" value="12K">
+<attribute name="LCSC_PART" value="C515719"/>
+</part>
 <part name="J16" library="IotaWatt_parts" deviceset="2.1MMJACK" device="SMT"/>
 <part name="U$5" library="IotaWatt_parts" deviceset="HEADER_1X4" device=""/>
-<part name="R10" library="adafruit" deviceset="R-US_" device="R0805" value="None"/>
-<part name="R11" library="adafruit" deviceset="R-US_" device="R0805" value="None"/>
+<part name="R10" library="adafruit" deviceset="R-US_" device="R0805" value="None">
+<attribute name="LCSC_PART" value="C17477"/>
+</part>
+<part name="R11" library="adafruit" deviceset="R-US_" device="R0805" value="None">
+<attribute name="LCSC_PART" value="C17477"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -5825,13 +5911,40 @@ prohibited.</text>
 <instance part="R31" gate="G$1" x="53.34" y="-20.32" smashed="yes" rot="R180">
 <attribute name="NAME" x="57.15" y="-21.8186" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="57.15" y="-17.018" size="1.778" layer="96" rot="R180"/>
+<attribute name="LCSC_PART" x="53.34" y="-20.32" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="53.34" y="-20.32" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="53.34" y="-20.32" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="53.34" y="-20.32" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="53.34" y="-20.32" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="53.34" y="-20.32" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="53.34" y="-20.32" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="53.34" y="-20.32" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="53.34" y="-20.32" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="R32" gate="G$1" x="63.5" y="-20.32" smashed="yes">
 <attribute name="NAME" x="59.69" y="-18.8214" size="1.778" layer="95"/>
 <attribute name="VALUE" x="59.69" y="-23.622" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="63.5" y="-20.32" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="63.5" y="-20.32" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="63.5" y="-20.32" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="63.5" y="-20.32" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="63.5" y="-20.32" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="63.5" y="-20.32" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="63.5" y="-20.32" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="63.5" y="-20.32" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="63.5" y="-20.32" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U$1" gate="G$1" x="38.1" y="-93.98" smashed="yes">
 <attribute name="NAME" x="31.242" y="-70.104" size="1.27" layer="95"/>
+<attribute name="LCSC_PART" x="38.1" y="-93.98" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="38.1" y="-93.98" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="38.1" y="-93.98" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="38.1" y="-93.98" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="38.1" y="-93.98" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="38.1" y="-93.98" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="38.1" y="-93.98" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="38.1" y="-93.98" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="38.1" y="-93.98" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U$3" gate="G$1" x="10.16" y="-40.64" smashed="yes" rot="R180">
 <attribute name="NAME" x="19.558" y="-61.722" size="1.778" layer="95" rot="R180"/>
@@ -5840,9 +5953,27 @@ prohibited.</text>
 <instance part="R29" gate="G$1" x="27.94" y="-58.42" smashed="yes" rot="R180">
 <attribute name="NAME" x="29.972" y="-55.6006" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="28.956" y="-59.69" size="1.778" layer="96" rot="R180"/>
+<attribute name="LCSC_PART" x="27.94" y="-58.42" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="27.94" y="-58.42" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="27.94" y="-58.42" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="27.94" y="-58.42" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="27.94" y="-58.42" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="27.94" y="-58.42" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="27.94" y="-58.42" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="27.94" y="-58.42" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="27.94" y="-58.42" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="U$2" gate="G$1" x="149.86" y="-93.98" smashed="yes">
 <attribute name="NAME" x="143.002" y="-70.104" size="1.27" layer="95"/>
+<attribute name="LCSC_PART" x="149.86" y="-93.98" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="149.86" y="-93.98" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="149.86" y="-93.98" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="149.86" y="-93.98" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="149.86" y="-93.98" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="149.86" y="-93.98" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="149.86" y="-93.98" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="149.86" y="-93.98" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="149.86" y="-93.98" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U$16" gate="G$1" x="137.16" y="68.58" smashed="yes"/>
 <instance part="J8" gate="G$1" x="-22.86" y="104.14" smashed="yes" rot="MR180">
@@ -5890,9 +6021,27 @@ prohibited.</text>
 <instance part="Y1" gate="G$1" x="121.92" y="17.78" smashed="yes" rot="R270">
 <attribute name="NAME" x="124.46" y="20.32" size="1.27" layer="95" rot="R270"/>
 <attribute name="VALUE" x="118.11" y="20.32" size="1.27" layer="96" rot="R270"/>
+<attribute name="LCSC_PART" x="121.92" y="17.78" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="121.92" y="17.78" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="121.92" y="17.78" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="121.92" y="17.78" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="121.92" y="17.78" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="121.92" y="17.78" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="121.92" y="17.78" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="121.92" y="17.78" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="121.92" y="17.78" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="U$4" gate="G$1" x="157.48" y="0" smashed="yes">
 <attribute name="NAME" x="140.462" y="18.288" size="1.27" layer="94"/>
+<attribute name="LCSC_PART" x="157.48" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="157.48" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="157.48" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="157.48" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="157.48" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="157.48" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="157.48" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="157.48" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="157.48" y="0" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J0" gate="G$1" x="83.82" y="-17.78" smashed="yes" rot="R180">
 <attribute name="NAME" x="86.36" y="-22.86" size="1.27" layer="95" rot="R180"/>
@@ -5904,74 +6053,245 @@ prohibited.</text>
 <instance part="R8" gate="G$1" x="-12.7" y="106.68" smashed="yes" rot="R270">
 <attribute name="NAME" x="-11.2014" y="110.49" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-16.002" y="110.49" size="1.778" layer="96" rot="R270"/>
+<attribute name="LCSC_PART" x="-12.7" y="106.68" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="106.68" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="106.68" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="106.68" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="106.68" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="106.68" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="106.68" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="106.68" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="106.68" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R12" gate="G$1" x="-12.7" y="88.9" smashed="yes" rot="R270">
 <attribute name="NAME" x="-10.9474" y="90.932" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-8.89" y="90.17" size="1.778" layer="96" rot="R270"/>
+<attribute name="LCSC_PART" x="-12.7" y="88.9" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="88.9" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="88.9" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="88.9" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="88.9" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="88.9" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="88.9" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="88.9" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="88.9" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R16" gate="G$1" x="-12.7" y="71.12" smashed="yes" rot="R270">
 <attribute name="NAME" x="-11.2014" y="72.898" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-9.144" y="72.136" size="1.778" layer="96" rot="R270"/>
+<attribute name="LCSC_PART" x="-12.7" y="71.12" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="71.12" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="71.12" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="71.12" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="71.12" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="71.12" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="71.12" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="71.12" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="71.12" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R20" gate="G$1" x="-12.7" y="53.34" smashed="yes" rot="R270">
 <attribute name="NAME" x="-10.9474" y="55.626" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-8.89" y="54.864" size="1.778" layer="96" rot="R270"/>
+<attribute name="LCSC_PART" x="-12.7" y="53.34" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="53.34" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="53.34" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="53.34" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="53.34" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="53.34" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="53.34" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="53.34" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="53.34" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R24" gate="G$1" x="-12.7" y="35.56" smashed="yes" rot="R270">
 <attribute name="NAME" x="-11.2014" y="37.846" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-9.144" y="36.83" size="1.778" layer="96" rot="R270"/>
+<attribute name="LCSC_PART" x="-12.7" y="35.56" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="35.56" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="35.56" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="35.56" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="35.56" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="35.56" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="35.56" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="35.56" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="35.56" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R28" gate="G$1" x="-12.7" y="17.78" smashed="yes" rot="R270">
 <attribute name="NAME" x="-11.2014" y="19.812" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-9.144" y="19.05" size="1.778" layer="96" rot="R270"/>
+<attribute name="LCSC_PART" x="-12.7" y="17.78" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="17.78" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="17.78" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="17.78" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="17.78" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="17.78" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="17.78" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="17.78" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="17.78" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R36" gate="G$1" x="-12.7" y="-20.32" smashed="yes" rot="R270">
 <attribute name="NAME" x="-11.2014" y="-18.034" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-9.144" y="-18.796" size="1.778" layer="96" rot="R270"/>
+<attribute name="LCSC_PART" x="-12.7" y="-20.32" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="-20.32" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="-20.32" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="-20.32" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="-20.32" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="-20.32" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="-20.32" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="-20.32" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-12.7" y="-20.32" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R40" gate="G$1" x="48.26" y="106.68" smashed="yes" rot="R270">
 <attribute name="NAME" x="43.6626" y="108.712" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="45.72" y="107.696" size="1.778" layer="96" rot="R270"/>
+<attribute name="LCSC_PART" x="48.26" y="106.68" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="106.68" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="106.68" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="106.68" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="106.68" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="106.68" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="106.68" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="106.68" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="106.68" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R44" gate="G$1" x="48.26" y="88.9" smashed="yes" rot="R270">
 <attribute name="NAME" x="45.4914" y="86.614" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="45.72" y="90.17" size="1.778" layer="96" rot="R270"/>
+<attribute name="LCSC_PART" x="48.26" y="88.9" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="88.9" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="88.9" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="88.9" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="88.9" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="88.9" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="88.9" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="88.9" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="88.9" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R48" gate="G$1" x="48.26" y="71.12" smashed="yes" rot="R270">
 <attribute name="NAME" x="43.6626" y="73.152" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="45.72" y="72.136" size="1.778" layer="96" rot="R270"/>
+<attribute name="LCSC_PART" x="48.26" y="71.12" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="71.12" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="71.12" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="71.12" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="71.12" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="71.12" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="71.12" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="71.12" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="71.12" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R52" gate="G$1" x="48.26" y="53.34" smashed="yes" rot="R270">
 <attribute name="NAME" x="43.4086" y="55.118" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="45.466" y="54.356" size="1.778" layer="96" rot="R270"/>
+<attribute name="LCSC_PART" x="48.26" y="53.34" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="53.34" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="53.34" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="53.34" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="53.34" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="53.34" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="53.34" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="53.34" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="53.34" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R56" gate="G$1" x="48.26" y="35.56" smashed="yes" rot="R270">
 <attribute name="NAME" x="43.6626" y="37.338" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="45.72" y="36.576" size="1.778" layer="96" rot="R270"/>
+<attribute name="LCSC_PART" x="48.26" y="35.56" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="35.56" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="35.56" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="35.56" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="35.56" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="35.56" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="35.56" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="35.56" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="35.56" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R57" gate="G$1" x="48.26" y="17.78" smashed="yes" rot="R270">
 <attribute name="NAME" x="43.6626" y="19.558" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="45.72" y="18.796" size="1.778" layer="96" rot="R270"/>
+<attribute name="LCSC_PART" x="48.26" y="17.78" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="17.78" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="17.78" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="17.78" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="17.78" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="17.78" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="17.78" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="17.78" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="17.78" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R58" gate="G$1" x="48.26" y="0" smashed="yes" rot="R270">
 <attribute name="NAME" x="43.6626" y="1.524" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="45.72" y="1.016" size="1.778" layer="96" rot="R270"/>
+<attribute name="LCSC_PART" x="48.26" y="0" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="0" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="0" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="0" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="0" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="0" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="0" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="0" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="48.26" y="0" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R4" gate="G$1" x="170.18" y="104.14" smashed="yes" rot="R180">
 <attribute name="NAME" x="171.704" y="102.8954" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="171.958" y="107.188" size="1.778" layer="96" rot="R180"/>
+<attribute name="LCSC_PART" x="170.18" y="104.14" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="170.18" y="104.14" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="170.18" y="104.14" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="170.18" y="104.14" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="170.18" y="104.14" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="170.18" y="104.14" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="170.18" y="104.14" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="170.18" y="104.14" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="170.18" y="104.14" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="U$17" gate="G$1" x="-15.24" y="-78.74" smashed="yes" rot="R270">
 <attribute name="NAME" x="-24.384" y="-75.946" size="1.27" layer="95" rot="R270"/>
+<attribute name="LCSC_PART" x="-15.24" y="-78.74" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-15.24" y="-78.74" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-15.24" y="-78.74" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-15.24" y="-78.74" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-15.24" y="-78.74" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-15.24" y="-78.74" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-15.24" y="-78.74" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-15.24" y="-78.74" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-15.24" y="-78.74" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="U$19" gate="G$1" x="-15.24" y="-104.14" smashed="yes" rot="R270">
 <attribute name="NAME" x="-24.384" y="-101.346" size="1.27" layer="95" rot="R270"/>
+<attribute name="LCSC_PART" x="-15.24" y="-104.14" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-15.24" y="-104.14" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-15.24" y="-104.14" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-15.24" y="-104.14" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-15.24" y="-104.14" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-15.24" y="-104.14" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-15.24" y="-104.14" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-15.24" y="-104.14" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="-15.24" y="-104.14" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="U$20" gate="G$1" x="96.52" y="-78.74" smashed="yes" rot="R270">
 <attribute name="NAME" x="104.902" y="-75.692" size="1.27" layer="95" rot="R270"/>
+<attribute name="LCSC_PART" x="96.52" y="-78.74" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="96.52" y="-78.74" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="96.52" y="-78.74" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="96.52" y="-78.74" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="96.52" y="-78.74" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="96.52" y="-78.74" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="96.52" y="-78.74" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="96.52" y="-78.74" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="96.52" y="-78.74" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="U$21" gate="G$1" x="96.52" y="-104.14" smashed="yes" rot="R270">
 <attribute name="NAME" x="104.902" y="-101.092" size="1.27" layer="95" rot="R270"/>
+<attribute name="LCSC_PART" x="96.52" y="-104.14" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="96.52" y="-104.14" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="96.52" y="-104.14" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="96.52" y="-104.14" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="96.52" y="-104.14" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="96.52" y="-104.14" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="96.52" y="-104.14" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="96.52" y="-104.14" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC_PART" x="96.52" y="-104.14" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="SUPPLY2" gate="GND" x="106.68" y="-78.74" smashed="yes" rot="MR270">
 <attribute name="VALUE" x="109.855" y="-76.835" size="1.778" layer="96" rot="MR270"/>
@@ -5991,7 +6311,17 @@ prohibited.</text>
 <instance part="SUPPLY7" gate="GND" x="96.52" y="-68.58" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="94.615" y="-65.405" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="U$22" gate="G$1" x="162.56" y="-33.02" smashed="yes"/>
+<instance part="U$22" gate="G$1" x="162.56" y="-33.02" smashed="yes">
+<attribute name="LCSC_PART" x="162.56" y="-33.02" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="162.56" y="-33.02" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="162.56" y="-33.02" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="162.56" y="-33.02" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="162.56" y="-33.02" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="162.56" y="-33.02" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="162.56" y="-33.02" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="162.56" y="-33.02" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="162.56" y="-33.02" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY8" gate="GND" x="172.72" y="-12.7" smashed="yes" rot="MR270">
 <attribute name="VALUE" x="175.895" y="-10.795" size="1.778" layer="96" rot="MR270"/>
 </instance>
@@ -6001,14 +6331,41 @@ prohibited.</text>
 <instance part="R1" gate="G$1" x="147.32" y="-12.7" smashed="yes">
 <attribute name="NAME" x="145.796" y="-11.2014" size="1.778" layer="95"/>
 <attribute name="VALUE" x="145.034" y="-16.002" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="147.32" y="-12.7" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="147.32" y="-12.7" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="147.32" y="-12.7" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="147.32" y="-12.7" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="147.32" y="-12.7" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="147.32" y="-12.7" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="147.32" y="-12.7" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="147.32" y="-12.7" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="147.32" y="-12.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R2" gate="G$1" x="137.16" y="-12.7" smashed="yes">
 <attribute name="NAME" x="135.382" y="-11.2014" size="1.778" layer="95"/>
 <attribute name="VALUE" x="134.874" y="-16.002" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="137.16" y="-12.7" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="137.16" y="-12.7" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="137.16" y="-12.7" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="137.16" y="-12.7" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="137.16" y="-12.7" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="137.16" y="-12.7" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="137.16" y="-12.7" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="137.16" y="-12.7" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="137.16" y="-12.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C3" gate="G$1" x="137.16" y="-25.4" smashed="yes" rot="MR270">
 <attribute name="NAME" x="136.652" y="-20.701" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="135.636" y="-28.321" size="1.778" layer="96" rot="MR180"/>
+<attribute name="LCSC_PART" x="137.16" y="-25.4" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="LCSC_PART" x="137.16" y="-25.4" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="LCSC_PART" x="137.16" y="-25.4" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="LCSC_PART" x="137.16" y="-25.4" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="LCSC_PART" x="137.16" y="-25.4" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="LCSC_PART" x="137.16" y="-25.4" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="LCSC_PART" x="137.16" y="-25.4" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="LCSC_PART" x="137.16" y="-25.4" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="LCSC_PART" x="137.16" y="-25.4" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="SUPPLY10" gate="GND" x="132.08" y="-15.24" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="133.985" y="-18.415" size="1.778" layer="96" rot="MR0"/>
@@ -6019,6 +6376,15 @@ prohibited.</text>
 <instance part="C1" gate="G$1" x="180.34" y="-22.86" smashed="yes" rot="MR0">
 <attribute name="NAME" x="179.324" y="-22.225" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="179.324" y="-27.051" size="1.778" layer="96" rot="MR0"/>
+<attribute name="LCSC_PART" x="180.34" y="-22.86" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="LCSC_PART" x="180.34" y="-22.86" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="LCSC_PART" x="180.34" y="-22.86" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="LCSC_PART" x="180.34" y="-22.86" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="LCSC_PART" x="180.34" y="-22.86" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="LCSC_PART" x="180.34" y="-22.86" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="LCSC_PART" x="180.34" y="-22.86" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="LCSC_PART" x="180.34" y="-22.86" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="LCSC_PART" x="180.34" y="-22.86" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="SUPPLY1" gate="GND" x="180.34" y="-17.78" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="178.435" y="-14.605" size="1.778" layer="96" rot="MR180"/>
@@ -6036,6 +6402,15 @@ prohibited.</text>
 <instance part="C2" gate="G$1" x="137.16" y="-45.72" smashed="yes" rot="MR180">
 <attribute name="NAME" x="138.176" y="-46.355" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="138.176" y="-41.529" size="1.778" layer="96" rot="MR180"/>
+<attribute name="LCSC_PART" x="137.16" y="-45.72" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="LCSC_PART" x="137.16" y="-45.72" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="LCSC_PART" x="137.16" y="-45.72" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="LCSC_PART" x="137.16" y="-45.72" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="LCSC_PART" x="137.16" y="-45.72" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="LCSC_PART" x="137.16" y="-45.72" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="LCSC_PART" x="137.16" y="-45.72" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="LCSC_PART" x="137.16" y="-45.72" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="LCSC_PART" x="137.16" y="-45.72" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
 <instance part="SUPPLY15" gate="GND" x="137.16" y="-50.8" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="139.065" y="-53.975" size="1.778" layer="96" rot="MR0"/>
@@ -6043,30 +6418,93 @@ prohibited.</text>
 <instance part="C4" gate="G$1" x="53.34" y="-71.12" smashed="yes" rot="MR180">
 <attribute name="NAME" x="54.356" y="-71.755" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="54.356" y="-66.929" size="1.778" layer="96" rot="MR180"/>
+<attribute name="LCSC_PART" x="53.34" y="-71.12" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="LCSC_PART" x="53.34" y="-71.12" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="LCSC_PART" x="53.34" y="-71.12" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="LCSC_PART" x="53.34" y="-71.12" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="LCSC_PART" x="53.34" y="-71.12" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="LCSC_PART" x="53.34" y="-71.12" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="LCSC_PART" x="53.34" y="-71.12" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="LCSC_PART" x="53.34" y="-71.12" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="LCSC_PART" x="53.34" y="-71.12" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
 <instance part="C5" gate="G$1" x="165.1" y="-71.12" smashed="yes" rot="MR180">
 <attribute name="NAME" x="166.116" y="-71.755" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="166.116" y="-66.929" size="1.778" layer="96" rot="MR180"/>
+<attribute name="LCSC_PART" x="165.1" y="-71.12" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="LCSC_PART" x="165.1" y="-71.12" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="LCSC_PART" x="165.1" y="-71.12" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="LCSC_PART" x="165.1" y="-71.12" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="LCSC_PART" x="165.1" y="-71.12" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="LCSC_PART" x="165.1" y="-71.12" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="LCSC_PART" x="165.1" y="-71.12" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="LCSC_PART" x="165.1" y="-71.12" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="LCSC_PART" x="165.1" y="-71.12" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
 <instance part="C6" gate="G$1" x="165.1" y="-12.7" smashed="yes" rot="MR270">
 <attribute name="NAME" x="164.465" y="-13.716" size="1.778" layer="95" rot="MR270"/>
 <attribute name="VALUE" x="169.291" y="-13.716" size="1.778" layer="96" rot="MR270"/>
+<attribute name="LCSC_PART" x="165.1" y="-12.7" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="LCSC_PART" x="165.1" y="-12.7" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="LCSC_PART" x="165.1" y="-12.7" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="LCSC_PART" x="165.1" y="-12.7" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="LCSC_PART" x="165.1" y="-12.7" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="LCSC_PART" x="165.1" y="-12.7" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="LCSC_PART" x="165.1" y="-12.7" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="LCSC_PART" x="165.1" y="-12.7" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="LCSC_PART" x="165.1" y="-12.7" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="C7" gate="G$1" x="160.02" y="20.32" smashed="yes" rot="MR180">
 <attribute name="NAME" x="161.036" y="19.685" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="161.036" y="24.511" size="1.778" layer="96" rot="MR180"/>
+<attribute name="LCSC_PART" x="160.02" y="20.32" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="LCSC_PART" x="160.02" y="20.32" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="LCSC_PART" x="160.02" y="20.32" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="LCSC_PART" x="160.02" y="20.32" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="LCSC_PART" x="160.02" y="20.32" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="LCSC_PART" x="160.02" y="20.32" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="LCSC_PART" x="160.02" y="20.32" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="LCSC_PART" x="160.02" y="20.32" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="LCSC_PART" x="160.02" y="20.32" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
 <instance part="R3" gate="G$1" x="165.1" y="15.24" smashed="yes">
 <attribute name="NAME" x="163.576" y="16.7386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="162.814" y="11.938" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="165.1" y="15.24" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="165.1" y="15.24" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="165.1" y="15.24" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="165.1" y="15.24" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="165.1" y="15.24" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="165.1" y="15.24" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="165.1" y="15.24" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="165.1" y="15.24" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="165.1" y="15.24" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R5" gate="G$1" x="-10.16" y="2.54" smashed="yes">
 <attribute name="NAME" x="-13.97" y="4.0386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-13.97" y="-0.762" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="-10.16" y="2.54" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="-10.16" y="2.54" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="-10.16" y="2.54" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="-10.16" y="2.54" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="-10.16" y="2.54" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="-10.16" y="2.54" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="-10.16" y="2.54" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="-10.16" y="2.54" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="-10.16" y="2.54" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R6" gate="G$1" x="-20.32" y="2.54" smashed="yes" rot="R180">
 <attribute name="NAME" x="-16.51" y="1.0414" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-16.51" y="5.842" size="1.778" layer="96" rot="R180"/>
+<attribute name="LCSC_PART" x="-20.32" y="2.54" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="-20.32" y="2.54" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="-20.32" y="2.54" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="-20.32" y="2.54" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="-20.32" y="2.54" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="-20.32" y="2.54" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="-20.32" y="2.54" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="-20.32" y="2.54" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="-20.32" y="2.54" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="J15" gate="G$1" x="-40.64" y="0" smashed="yes">
 <attribute name="NAME" x="-43.18" y="5.08" size="1.27" layer="95"/>
@@ -6074,10 +6512,28 @@ prohibited.</text>
 <instance part="R7" gate="G$1" x="-10.16" y="-35.56" smashed="yes">
 <attribute name="NAME" x="-13.97" y="-34.0614" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-13.97" y="-38.862" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="-10.16" y="-35.56" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="-10.16" y="-35.56" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="-10.16" y="-35.56" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="-10.16" y="-35.56" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="-10.16" y="-35.56" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="-10.16" y="-35.56" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="-10.16" y="-35.56" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="-10.16" y="-35.56" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="-10.16" y="-35.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R9" gate="G$1" x="-20.32" y="-35.56" smashed="yes" rot="R180">
 <attribute name="NAME" x="-16.51" y="-37.0586" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-16.51" y="-32.258" size="1.778" layer="96" rot="R180"/>
+<attribute name="LCSC_PART" x="-20.32" y="-35.56" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="-20.32" y="-35.56" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="-20.32" y="-35.56" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="-20.32" y="-35.56" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="-20.32" y="-35.56" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="-20.32" y="-35.56" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="-20.32" y="-35.56" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="-20.32" y="-35.56" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="-20.32" y="-35.56" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="J16" gate="G$1" x="-40.64" y="-38.1" smashed="yes">
 <attribute name="NAME" x="-43.18" y="-33.02" size="1.27" layer="95"/>
@@ -6085,13 +6541,31 @@ prohibited.</text>
 <instance part="U$5" gate="G$1" x="58.42" y="-38.1" smashed="yes" rot="R180">
 <attribute name="NAME" x="66.548" y="-56.642" size="1.27" layer="95" rot="R180"/>
 </instance>
-<instance part="R10" gate="G$1" x="-5.08" y="-27.94" smashed="yes" rot="R90">
-<attribute name="NAME" x="-6.5786" y="-31.75" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-1.778" y="-31.75" size="1.778" layer="96" rot="R90"/>
+<instance part="R10" gate="G$1" x="-5.08" y="-25.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="-6.5786" y="-29.21" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-1.778" y="-29.21" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC_PART" x="-5.08" y="-25.4" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="LCSC_PART" x="-5.08" y="-25.4" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="LCSC_PART" x="-5.08" y="-25.4" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="LCSC_PART" x="-5.08" y="-25.4" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="LCSC_PART" x="-5.08" y="-25.4" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="LCSC_PART" x="-5.08" y="-25.4" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="LCSC_PART" x="-5.08" y="-25.4" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="LCSC_PART" x="-5.08" y="-25.4" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="LCSC_PART" x="-5.08" y="-25.4" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R11" gate="G$1" x="-5.08" y="12.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="-6.5786" y="8.89" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-1.778" y="8.89" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC_PART" x="-5.08" y="12.7" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="LCSC_PART" x="-5.08" y="12.7" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="LCSC_PART" x="-5.08" y="12.7" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="LCSC_PART" x="-5.08" y="12.7" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="LCSC_PART" x="-5.08" y="12.7" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="LCSC_PART" x="-5.08" y="12.7" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="LCSC_PART" x="-5.08" y="12.7" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="LCSC_PART" x="-5.08" y="12.7" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="LCSC_PART" x="-5.08" y="12.7" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -7089,8 +7563,8 @@ prohibited.</text>
 <wire x1="5.08" y1="-35.56" x2="5.08" y2="-40.64" width="0.1524" layer="91"/>
 <junction x="-5.08" y="-35.56"/>
 <pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="-5.08" y1="-35.56" x2="-5.08" y2="-33.02" width="0.1524" layer="91"/>
-<junction x="-5.08" y="-33.02"/>
+<wire x1="-5.08" y1="-35.56" x2="-5.08" y2="-30.48" width="0.1524" layer="91"/>
+<junction x="-5.08" y="-30.48"/>
 </segment>
 <segment>
 <pinref part="J15" gate="G$1" pin="RING"/>
@@ -7205,9 +7679,9 @@ prohibited.</text>
 <junction x="-12.7" y="-15.24"/>
 <pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="-5.08" y1="-15.24" x2="-12.7" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="-22.86" x2="-5.08" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="-20.32" x2="-5.08" y2="-15.24" width="0.1524" layer="91"/>
 <junction x="-5.08" y="-15.24"/>
-<junction x="-5.08" y="-22.86"/>
+<junction x="-5.08" y="-20.32"/>
 </segment>
 </net>
 <net name="N$6" class="0">
