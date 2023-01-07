@@ -356,5 +356,10 @@ UsedLibrary="/Users/flo/Documents/EAGLE/libraries/mcp3304.lbr"
 UsedLibrary="/Users/flo/Documents/EAGLE/libraries/microchip-update.lbr"
 UsedLibrary="/Users/flo/Documents/EAGLE/libraries/v-reg.lbr"
 
+[Win_1]
+Type="Control Panel"
+Number=0
+
 [Desktop]
 Screen="6000 1440"
+Window="Win_1"
