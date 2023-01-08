@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -218,7 +218,8 @@ SDA
 3V3</text>
 <text x="18.2" y="93.5" size="1.778" layer="112" font="vector">CR1220</text>
 <text x="36.4" y="95.199990625" size="1.6764" layer="112" font="vector" rot="SR0">gregstr/xmirakulix</text>
-<text x="36.4" y="87.6" size="1.016" layer="112" font="vector" rot="SR0">JLCJLCJLCJLC</text>
+<text x="44.1" y="89.201996875" size="1.016" layer="112" font="vector" rot="SR0">JLCJLCJLCJLC</text>
+<text x="36.4" y="87.7" size="1.016" layer="112" font="vector" rot="SR0">https://gg.gg/gxwatt</text>
 </plain>
 <libraries>
 <library name="IotaWatt_parts">
@@ -1145,7 +1146,7 @@ design rules under a new name.</description>
 <via x="12" y="75" extent="1-16" drill="0.6"/>
 <via x="12" y="86" extent="1-16" drill="0.6"/>
 <via x="20.5" y="82.1" extent="1-16" drill="0.6"/>
-<via x="52.1" y="89.3" extent="1-16" drill="0.6"/>
+<via x="53.6" y="88.2" extent="1-16" drill="0.6"/>
 <via x="47.625" y="80.5" extent="1-16" drill="0.6"/>
 <via x="52.3" y="27.4" extent="1-16" drill="0.6"/>
 <via x="51" y="18" extent="1-16" drill="0.6"/>
