@@ -4691,10 +4691,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <smd name="7" x="2.7" y="0.6" dx="0.6" dy="1.3" layer="1" rot="R90"/>
 <smd name="6" x="2.7" y="-0.6" dx="0.6" dy="1.3" layer="1" rot="R90"/>
 <smd name="5" x="2.7" y="-1.9" dx="0.6" dy="1.3" layer="1" rot="R90"/>
-<wire x1="-1.5" y1="2.5" x2="-1.5" y2="-2.5" width="0.127" layer="22"/>
-<wire x1="-1.5" y1="-2.5" x2="1.7" y2="-2.5" width="0.127" layer="22"/>
-<wire x1="1.7" y1="-2.5" x2="1.7" y2="2.5" width="0.127" layer="22"/>
-<wire x1="1.7" y1="2.5" x2="-1.5" y2="2.5" width="0.127" layer="22"/>
+<wire x1="-1.5" y1="2.5" x2="-1.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-2.5" x2="1.7" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="1.7" y1="-2.5" x2="1.7" y2="2.5" width="0.127" layer="21"/>
+<wire x1="1.7" y1="2.5" x2="-1.5" y2="2.5" width="0.127" layer="21"/>
 <circle x="-2.52" y="2.98" radius="0.344090625" width="0.127" layer="21"/>
 <text x="-1.905" y="3.175" size="0.8128" layer="21">&gt;NAME</text>
 </package>
